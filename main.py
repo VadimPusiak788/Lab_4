@@ -35,7 +35,6 @@ def insert_data(file):
         records = []
         if len(list(spam)) > 0:
             for data in spam:
-                print(data)
                 records.append(data)
                 counter += 1
                 data['year'] = year
